@@ -1,0 +1,577 @@
+.fundo{
+    width: 100%;
+    background-image: url(img/5333284.jpg);
+    background-repeat: no-repeat;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family= Barlow +Semi+Condensed & family= Montserrat:wght@500 & display=swap');
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    resize: none;
+}
+
+
+
+:root {
+    --font_mont:'Montserrat';
+    --font_Barlow: 'Barlow Semi Condensed';
+    --verde: #669966;
+    --branco_pastel: #EEE5DA;
+}
+
+.alinhamento {
+    width: 1440px;
+    margin: auto;
+}
+
+header {
+
+    background-color: var(--verde);
+    padding: 20PX;
+    padding-bottom: 20PX;
+}
+
+.logo {
+    width: 150px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.menu {
+    display: flex;
+    justify-content:space-between;
+    width: 500px;
+    list-style: none;
+
+}
+
+.menu a {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: var(--font_mont);
+}
+
+.menu a:hover {
+    border-bottom: 2px solid var(--branco_pastel);
+    color: var(--branco_pastel);
+
+
+}
+
+/* Quem somos? */
+/* main {
+    background-color: var(--branco_pastel);
+} */
+
+h1 {
+    position: absolute;
+    left: -999em;
+    width: 1em;
+    overflow: 0;
+}
+
+.quem_somos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    gap: 50px;
+
+
+}
+
+.primeira_foto {
+    width: 700px;
+    box-shadow: 10px 10px 40px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 70px;
+}
+
+.sobre {
+    text-align: center;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre_titulo {
+
+    font-family: var(--font_mont);
+    font-size: 60px;
+    color: #162e03;
+
+}
+
+.sobre_texto {
+
+    font-family: var(--font_Barlow);
+    font-size: 30px;
+    color: #162e03;
+    background-color: #EEE5DA;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+.btn_esg {
+
+    background: var(--verde);
+    border-radius: 20px;
+    width: 250px;
+    height: 60px;
+    font-size: 25px;
+    margin-top: 60px;
+
+
+
+}
+
+.btn_esg a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+#Nao_perca{
+    font-size: 30px;
+    background-color: #5d885d;
+}
+
+span {
+
+    text-transform: uppercase;
+
+}
+
+/* Imagens */
+
+.imagens {
+    background-color: #EEE5DA;
+    padding-bottom: 100px;
+    gap: 20px;
+
+
+}
+
+.imgs {
+
+    display: flex;
+    justify-content: center;
+    
+    gap: 20px;
+
+
+}
+
+.imgs>* {
+    width: 475px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 40px 10px rgb(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+/* esg */
+
+.esg {
+
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    background-color: #EEE5DA;
+}
+
+.esg img {
+
+    width: 600px;
+}
+
+.sobre_esg {
+
+    text-align: center;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #EEE5DA;
+
+}
+
+.sobre_esg_titulo {
+
+    font-family: var(--font_Barlow);
+    font-size: 60px;
+}
+
+.sobre_esg_texto {
+
+    font-family: var(--font_Barlow);
+    font-size: 30px;
+}
+
+
+/* formulario */
+
+.formulario {
+    background-color: #669966;
+    padding: 100px 0;
+}
+
+.formulario_titulo {
+    color: #EEE5DA;
+    text-align: center;
+    font-family: var(--font_Barlow);
+    font-size: 60px;
+}
+
+form {
+    color: #ffffff;
+    font-family: var(--font_Barlow);
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+
+}
+
+form>div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 700px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+label {
+
+    font-size: 25px;
+
+}
+
+input {
+    height: 35px;
+    padding: 20px;
+}
+
+textarea {
+    padding: 20px;
+}
+
+.borda {
+
+    border: 1px solid var(--branco_pastel);
+    border-radius: 15px;
+}
+
+.btn_forms {
+
+    background-color: #EEE5DA;
+    border-radius: 30px;
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
+    color: var(--verde);
+    margin: 0 auto;
+    /* box-shadow: 5px 5px 40px 5px rgba(0, 0, 0, 0.4); */
+}
+
+.mapa {
+    width: 580px;
+}
+
+.contato {
+    padding: 100px 0;
+}
+
+.contato_titulo {
+    font-family: var(--font_Barlow);
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.conteudo_contato {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.borda_mapa {
+    border: 5px solid var(--verde);
+    width: 700px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato_info {
+    font-family: var(--font_Barlow);
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.info>i {
+    margin-right: 20px;
+    color: #669966;
+}
+
+/* ----footer --- */
+
+footer {
+    background-color: var(--verde);
+    color: white;
+    font-family: var(--font_Barlow);
+    font-size: 19px;
+    height: 50px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* ----Responsividade---- */
+
+/*------ pequenas telas: ate 600px
+celular de 600 px ate 768px 
+table: 768px ate 992px
+desktop: 992px ate 1200px
+grandes telas: acima de 1200px  ------*/
+
+@media screen and (min-width: 1440px) {
+    #burguer{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    #burguer{
+        display: none;
+    }
+
+    .alinhamento {
+        width: 100%;
+    }
+
+
+    nav {
+        padding: 0 50px;
+    }
+
+    .quem_somos {
+        padding: 100px 50px;
+    }
+
+    .sobre {
+        max-width: 500px;
+    }
+
+    .imgs {
+
+        flex-wrap: wrap;
+    }
+
+    .esg {
+
+        padding: 100px 50px;
+    }
+
+    .sobre_esg_texto {
+        font-size: 26px;
+    }
+
+    .esg img {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 1220px) {
+    .primeira_foto {
+        width: 550px;
+    }
+
+    .esg img {
+        width: 45%;
+    }
+
+    .sobre_esg {
+        width: 480px;
+    }
+}
+@media screen and(min-width: 900px){
+
+    #burguer{
+        display: none;
+    }
+}
+    
+
+
+@media screen and (max-width:900px) {
+    .quem_somos {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .sobre {
+        margin-top: 30px;
+    }
+
+
+    .data {
+        font-size: 85px;
+    }
+
+    .esg {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        gap: 50px;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+
+    .sobre_esg {
+        width: 600px;
+    }
+
+    .conteudo_contato {
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    #burguer {
+        display: block;
+        color: #ffffff;
+        font-size: 55px;
+    }
+
+
+    #itens {
+        position: absolute;
+        height: 92vh;
+        /* viewport */
+        width: 50vw;
+        top: 10vh;
+        right: 0;
+        flex-direction: column;
+        align-items: center;
+        background-color: #669966;
+        gap: 50px;
+    }
+
+    .menu li{
+        padding: 50px;
+
+    }
+    .menu{
+        display:none;
+    }
+
+.quem_somos{
+    flex-direction: column;
+}
+
+.sobre{
+    margin-top: 30px;
+}
+.data{
+    font-size: 70px;
+}
+.imgs{
+    gap: 50px;
+
+}
+.esg{
+    flex-direction: column;
+    align-items: center;
+
+}
+.sobre_esg{
+    width:50% ;
+
+}
+}
+@media screen and (max-width: 580){
+
+    #burguer {
+        display: block;
+        color: #ffffff;
+        font-size: 55px;
+    }
+
+
+    #itens {
+        position: absolute;
+        height: 92vh;
+        /* viewport */
+        width: 50vw;
+        top: 16vh;
+        right: 0;
+        flex-direction: column;
+        align-items: center;
+        background-color: #669966;
+        gap: 50px;
+    }
+
+    .menu li{
+        padding: 50px;
+
+    }
+    .menu{
+        display:none;
+    }
+    .data{
+        font-size: 45px;
+    }
+    .esg img{
+        width: 70%;
+    }
+
+    .mapa{
+        width: 400px;
+    }
+    .borda_mapa{
+        width: 480px;
+    }
+    .conteudo_contato{
+        align-items: center;
+        justify-content: center;
+
+    }
+}
+.rodape{
+    background-color: #224704;
+}
